@@ -1,0 +1,51 @@
+"""
+Lab_Python_01
+Solutions to Exercise 1 - 3
+"""
+
+# 1.1 Variable Names
+
+ 1. valid
+ 2. invalid - cannot start with a number
+ 3. valid
+ 4. invalid - cannot start with punctuation except '_'
+ 5. valid
+ 6. valid
+ 7. invalid - cannot contain spaces
+
+# 1.2 Types
+
+ 1. boolean
+ 2. float
+ 3. string
+ 4. int
+ 5. string - it is the string 'True', _not_ the boolean True. important difference
+ 6. int
+ 7. No type at all - it is a SyntaxError
+ 8. boolean
+ 9. string - it is a string that seems like a float, but the quotes make it a string
+ 10. string
+
+# 2.1 Booleans
+
+ 1. False
+ 2. True
+ 3. True - 'not a' is True, as is 'b'
+ 4. True - 'a and b' is False, but 'not c' is True, so the whole statement is True
+ 5. False - 'not b' is False, so the 'and' statement cannot be True
+ 6. True - '(not b or not a) and c' is False because 'c' is False.
+           'Therefore, 'not (( not b or not a) and c)' is True, so the statement is True
+
+# 3 Data Types in Arithmetic
+
+ 1. 3 -> int
+ 2. 2.5 -> float
+ 3. 2.5 -> float
+ 4. 0 -> int
+ 5. 3.5 -> float
+ 6. 25 -> int
+ 7. 25.0 -> float
+ 8. 25.0 -> float
+ 9. 0 -> int
+ 10. .333333... -> float
+
